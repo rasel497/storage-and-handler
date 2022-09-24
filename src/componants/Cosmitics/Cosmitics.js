@@ -5,11 +5,41 @@ import Cosmitic from '../Cosmitic/Cosmitic';
 
 const Cosmitics = () => {
     const cosmitics = [
-        { id: 1, name: 'Alta', price: '470' },
-        { id: 2, name: 'Lipsstek', price: '350' },
-        { id: 3, name: 'Eyelanar', price: '220' },
-        { id: 4, name: 'Hand Ring', price: '180' },
-        { id: 5, name: 'Stich', price: '50', }
+        {
+            "id": "632ea9632a320ea5dac315fc",
+            "price": 210,
+            "name": "Coleman Macias"
+        },
+        {
+            "id": "632ea963b60d3347fb0a585b",
+            "price": 280,
+            "name": "Frederick Gonzalez"
+        },
+        {
+            "id": "632ea963b8f08d8a8e17cb3a",
+            "price": 270,
+            "name": "Lacy Jennings"
+        },
+        {
+            "id": "632ea9637a51f57eac6c3213",
+            "price": 300,
+            "name": "Conner Moody"
+        },
+        {
+            "id": "632ea963a0d75cd2376e682b",
+            "price": 302,
+            "name": "Kent Dudley"
+        },
+        {
+            "id": "632ea963466acbab8523587a",
+            "price": 380,
+            "name": "Rutledge Clements"
+        },
+        {
+            "id": "632ea9635a6ed30cbd043472",
+            "price": 335,
+            "name": "Angelique Blackburn"
+        }
     ]
 
     return (
