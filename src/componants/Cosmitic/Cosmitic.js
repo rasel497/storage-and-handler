@@ -1,10 +1,15 @@
 import React from 'react';
+import { addToDb } from '../../utilities/fakedb';
 import './Cosmitic.css'
+
 const Cosmitic = (props) => {
     const { name, price, id } = props.cosmitic;
 
     const addToCart = (id) => {
-        console.log('add items', id)
+        // console.log('add items', id); //only item add console
+        // sessionStorage.setItem(id, 1); // item set local stroge in this line
+        // ekhon amra alada vabe localStorage mange koerer jonno fakedb.js file create korlm
+        addToDb(id);
     }
     // const addToCartWithPara = () => addToCart(id
     return (

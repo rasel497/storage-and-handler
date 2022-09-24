@@ -17,10 +17,8 @@ const Cosmitics = () => {
             <h2>Welcom to my Modules.</h2>
             {
                 // cosmitics.map(cosmitic => console.log(cosmitic))
-                cosmitics.map(cosmitic => <Cosmitic
-                    key={cosmitic.id}
-                    cosmitic={cosmitic}
-                ></Cosmitic>)
+                cosmitics.map(cosmitic =>
+                    <Cosmitic key={cosmitic.id} cosmitic={cosmitic}></Cosmitic>)
             }
         </div>
     );
